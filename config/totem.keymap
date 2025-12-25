@@ -229,9 +229,9 @@
 
         left_hand_mouse {
             bindings = <
-        &trans  &trans     &msc SCRL_UP    &trans     &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &mkp LCLK  &msc SCRL_DOWN  &mkp RCLK  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans     &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans     &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &mkp LCLK  &msc SCRL_UP    &mkp RCLK  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans     &msc SCRL_DOWN  &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
                            &trans          &trans     &trans    &trans  &trans  &trans
             >;
         };
