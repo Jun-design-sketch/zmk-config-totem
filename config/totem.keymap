@@ -45,6 +45,11 @@
             key-positions = <11 12 13>;
             bindings = <&tog 5>;
         };
+
+        MouseBehavior {
+            bindings = <&lt 7 A>;
+            key-positions = <21 10>;
+        };
     };
 
     macros {
@@ -224,10 +229,10 @@
 
         left_hand_mouse {
             bindings = <
-        &trans  &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans     &trans     &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                           &trans     &trans     &trans    &trans  &trans  &trans
+        &trans  &trans     &msc SCRL_UP    &trans     &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &mkp LCLK  &msc SCRL_DOWN  &mkp RCLK  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans     &trans          &trans     &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                           &trans          &trans     &trans    &trans  &trans  &trans
             >;
         };
     };
