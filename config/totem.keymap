@@ -42,12 +42,7 @@
 
         mouse1 {
             bindings = <&lt 7 A>;
-            key-positions = <21 10>;
-        };
-
-        mouse2 {
-            bindings = <&lt 7 A>;
-            key-positions = <0 10>;
+            key-positions = <34 12>;
         };
     };
 
