@@ -39,11 +39,6 @@
             key-positions = <11 12 13>;
             bindings = <&tog 5>;
         };
-
-        mouse1 {
-            bindings = <&lt 7 A>;
-            key-positions = <34 12>;
-        };
     };
 
     macros {
@@ -142,10 +137,10 @@
 
         mouse {
             bindings = <
-       &none     &none         &none      &none           &none    &none      &none           &none           &none         &none
-       &kp LGUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &none    &none      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
-&none  &none     &none         &none      &none           &none    &none      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none
-                               &none      &none           &none    &mkp RCLK  &mkp LCLK       &mkp MCLK
+       &none     &none         &none      &none           &mo 7        &none      &none           &none           &none         &none
+       &kp LGUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &mkp LCLK    &none      &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
+&none  &none     &none         &none      &none           &mkp RCLK    &none      &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &none
+                               &none      &none           &none        &mkp RCLK  &mkp LCLK       &mkp MCLK
             >;
         };
 
@@ -223,10 +218,10 @@
 
         left_hand_mouse {
             bindings = <
-        &trans  &trans     &trans          &trans     &trans    &trans     &trans          &trans          &trans        &trans
-        &trans  &mkp LCLK  &msc SCRL_UP    &mkp RCLK  &trans    &trans     &mmv MOVE_X(-4000)  &mmv MOVE_Y(-4000)  &mmv MOVE_Y(4000)  &mmv MOVE_X(4000)
-&trans  &trans  &trans     &msc SCRL_DOWN  &trans     &trans    &trans     &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
-                           &trans          &trans     &trans    &mkp LCLK  &mkp RCLK       &mkp MCLK
+        &trans  &trans     &trans          &trans     &trans            &trans     &trans              &trans              &trans             &trans
+        &trans  &mkp LCLK  &msc SCRL_UP    &mkp RCLK  &msc SCRL_DOWN    &trans     &mmv MOVE_X(-4000)  &mmv MOVE_Y(-4000)  &mmv MOVE_Y(4000)  &mmv MOVE_X(4000)
+&trans  &trans  &trans     &msc SCRL_DOWN  &trans     &msc SCRL_UP      &trans     &msc SCRL_LEFT      &msc SCRL_DOWN      &msc SCRL_UP       &msc SCRL_RIGHT    &trans
+                           &trans          &trans     &trans            &mkp LCLK  &mkp RCLK           &mkp MCLK
             >;
         };
     };
