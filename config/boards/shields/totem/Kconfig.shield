@@ -10,8 +10,5 @@ config SHIELD_TOTEM_LEFT_PERIPHERAL
 config SHIELD_TOTEM_RIGHT
     def_bool $(shields_list_contains,totem_right)
 
-config SHIELD_TOTEM_USB_TEST
-    def_bool $(shields_list_contains,totem_usb_test)
-
 config SHIELD_TOTEM_DONGLE
     def_bool $(shields_list_contains,totem_dongle)

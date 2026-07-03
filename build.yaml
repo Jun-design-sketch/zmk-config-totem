@@ -1,18 +1,14 @@
 include:
+  # BLE setup
   - board: seeeduino_xiao_ble
     shield: totem_left
   - board: seeeduino_xiao_ble
     shield: totem_right
-  - board: seeeduino_xiao_ble
-    shield: usb_smoke
-  - board: seeeduino_xiao_ble
-    shield: totem_usb_test
-  - board: seeeduino_xiao_ble
-    shield: totem_dongle
+
+  # Dongle setup
   - board: seeeduino_xiao_ble
     shield: totem_dongle prospector_adapter
   - board: seeeduino_xiao_ble
     shield: totem_left_peripheral
   - board: seeeduino_xiao_ble
     shield: settings_reset
-# there is no settingsreset (needed) for the XIAO
