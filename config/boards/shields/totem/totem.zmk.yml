@@ -10,4 +10,5 @@ siblings:
   - totem_left
   - totem_left_peripheral
   - totem_right
+  - totem_usb_test
   - totem_dongle
