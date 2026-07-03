@@ -3,7 +3,7 @@ include:
     shield: totem_left
   - board: seeeduino_xiao_ble
     shield: totem_right
-  - board: xiao_ble//zmk
+  - board: seeeduino_xiao_ble
     shield: totem_dongle prospector_adapter
   - board: seeeduino_xiao_ble
     shield: totem_left_peripheral
