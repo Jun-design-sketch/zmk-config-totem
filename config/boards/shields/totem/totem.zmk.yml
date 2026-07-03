@@ -8,4 +8,6 @@ features:
   - keys
 siblings:
   - totem_left
+  - totem_left_peripheral
   - totem_right
+  - totem_dongle
