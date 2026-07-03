@@ -142,10 +142,10 @@
 
         mouse {
             bindings = <
-       &none     &none         &none      &msc SCRL_DOWN  &kp F16      &kp LG(LS(Z))  &kp LG(V)         &kp LG(C)         &kp LG(X)        &kp LG(Z)
-       &kp LGUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &mkp LCLK    &mkp LCLK      &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_UP     &mmv MOVE_RIGHT
-&none  &none     &none         &none      &msc SCRL_UP    &mkp RCLK    &mkp RCLK      &msc MOVE_X(-15)  &msc MOVE_Y(-15)  &msc MOVE_Y(15)  &msc MOVE_X(15)  &none
-                               &none      &none           &none        &mkp RCLK      &mkp LCLK         &mkp MCLK
+       &none     &none         &none           &mo 7           &kp F16      &kp LG(LS(Z))  &kp LG(V)         &kp LG(C)         &kp LG(X)        &kp LG(Z)
+       &kp LGUI  &kp LEFT_ALT  &kp LCTRL       &kp LEFT_SHIFT  &mkp LCLK    &mkp LCLK      &mmv MOVE_LEFT    &mmv MOVE_DOWN    &mmv MOVE_UP     &mmv MOVE_RIGHT
+&none  &none     &none         &msc SCRL_DOWN  &msc SCRL_UP    &mkp RCLK    &mkp RCLK      &msc MOVE_X(-15)  &msc MOVE_Y(-15)  &msc MOVE_Y(15)  &msc MOVE_X(15)  &none
+                               &none           &none           &none        &mkp RCLK      &mkp LCLK         &mkp MCLK
             >;
         };
 
