@@ -34,17 +34,6 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_tvp {
-            timeout-ms = <100>;
-            key-positions = <11 12 13>;
-            bindings = <&tog 5>;
-        };
-
-        combo_mouse {
-            bindings = <&tog 3>;
-            key-positions = <1 2 3>;
-        };
-
         thumb_combo {
             bindings = <&mo 8>;
             key-positions = <33 34>;
