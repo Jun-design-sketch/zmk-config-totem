@@ -232,5 +232,14 @@
                           &trans   &trans   &trans     &trans  &trans  &trans
             >;
         };
+
+        raycast_layer {
+            bindings = <
+        &trans  &trans  &trans   &kp F23  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans   &trans   &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp F24  &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans   &trans   &trans    &trans  &trans  &trans
+            >;
+        };
     };
 };
