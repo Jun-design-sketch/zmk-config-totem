@@ -231,19 +231,19 @@
 
         app_shortcut {
             bindings = <
-        &trans                 &trans                 &trans                 &trans                 &trans                   &trans  &trans  &kp RS(RA(RC(RG(I))))  &trans  &trans
-        &kp RS(RA(RC(RG(A))))  &trans                 &trans                 &kp RS(RA(RC(RG(F))))  &kp RS(RA(RC(RG(G))))    &trans  &trans  &trans                 &trans  &trans
-&trans  &trans                 &kp RS(RA(RC(RG(X))))  &kp RS(RA(RC(RG(C))))  &kp RS(RA(RC(RG(V))))  &trans                   &trans  &trans  &trans                 &trans  &trans  &trans
-                                                      &trans                 &trans                 &trans                   &trans  &trans  &trans
+        &kp RS(RA(RC(RG(Q))))  &kp RS(RA(RC(RG(W))))  &kp RS(RA(RC(RG(E))))  &kp RS(RA(RC(RG(R))))  &kp RS(RA(RC(RG(T))))    &kp RS(RA(RC(RG(Y))))  &kp RS(RA(RC(RG(U))))  &kp RS(RA(RC(RG(I))))  &kp RS(RA(RC(RG(O))))  &kp RS(RA(RC(RG(P))))
+        &kp RS(RA(RC(RG(A))))  &kp RS(RA(RC(RG(S))))  &kp RS(RA(RC(RG(D))))  &kp RS(RA(RC(RG(F))))  &kp RS(RA(RC(RG(G))))    &kp RS(RA(RC(RG(H))))  &kp RS(RA(RC(RG(J))))  &kp RS(RA(RC(RG(K))))  &kp RS(RA(RC(RG(L))))  &trans
+&trans  &kp RS(RA(RC(RG(Z))))  &kp RS(RA(RC(RG(X))))  &kp RS(RA(RC(RG(C))))  &kp RS(RA(RC(RG(V))))  &kp RS(RA(RC(RG(B))))    &kp RS(RA(RC(RG(N))))  &kp RS(RA(RC(RG(M))))  &trans                 &trans                 &trans                 &trans
+                                                      &trans                 &trans                 &trans                   &trans                 &trans                 &trans
             >;
         };
 
         raycast_layer {
             bindings = <
-        &trans  &trans  &trans                   &kp RS(RA(RC(RG(F18))))  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans                   &trans                   &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp RS(RA(RC(RG(F17))))  &trans                   &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans                   &trans                   &trans    &trans  &trans  &trans
+        &trans  &trans                   &kp RS(RA(RC(RG(F23))))  &kp RS(RA(RC(RG(F24))))  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &kp RA(RS(RC(RG(F20))))  &kp RS(RA(RC(RG(F21))))  &kp RS(RA(RC(RG(F22))))  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp RS(RA(RC(RG(F17))))  &kp RS(RA(RC(RG(F18))))  &kp RS(RA(RC(RG(F19))))  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                         &trans                   &trans                   &trans    &trans  &trans  &trans
             >;
         };
     };
