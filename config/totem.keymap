@@ -44,6 +44,11 @@
             bindings = <&tog 3>;
             key-positions = <1 2 3>;
         };
+
+        thumb_combo {
+            bindings = <&mo 8>;
+            key-positions = <33 34>;
+        };
     };
 
     macros {
@@ -227,6 +232,15 @@
         &kp LGUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &msc SCRL_DOWN  &mkp LCLK    &msc SCRL_DOWN  &mmv MOVE_X(-4000)  &mmv MOVE_Y(4000)  &mmv MOVE_Y(-4000)  &mmv MOVE_X(4000)
 &trans  &trans    &trans        &trans            &msc SCRL_UP    &mkp RCLK    &msc SCRL_UP    &msc MOVE_X(-25)    &msc MOVE_Y(-25)   &msc MOVE_Y(25)     &msc MOVE_X(25)    &trans
                                 &trans            &trans          &trans       &mkp RCLK       &mkp LCLK           &mkp MCLK
+            >;
+        };
+
+        app_shortcut {
+            bindings = <
+        &trans   &trans   &trans   &trans   &trans     &trans  &trans  &trans  &trans  &trans
+        &kp F21  &trans   &trans   &kp F19  &kp F22    &trans  &trans  &trans  &trans  &trans
+&trans  &trans   &kp F20  &kp F17  &kp F18  &trans     &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans   &trans   &trans     &trans  &trans  &trans
             >;
         };
     };
