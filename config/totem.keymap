@@ -34,9 +34,14 @@
     combos {
         compatible = "zmk,combos";
 
-        thumb_combo {
+        app_layer_combo {
             bindings = <&mo 8>;
             key-positions = <33 34>;
+        };
+
+        ray_layer_combo {
+            bindings = <&mo 9>;
+            key-positions = <36 35>;
         };
     };
 
