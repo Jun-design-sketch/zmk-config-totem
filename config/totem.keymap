@@ -240,10 +240,10 @@
 
         RAY {
             bindings = <
-        &trans  &kp RS(RA(RC(RG(NUMBER_2))))  &kp RS(RA(RC(RG(NUMBER_3))))  &kp RS(RA(RC(RG(NUMBER_4))))  &trans    &trans  &trans                  &trans                        &trans                  &trans
-        &trans  &kp RA(RS(RC(RG(F20))))       &kp RS(RA(RC(RG(N0))))        &kp RS(RA(RC(RG(NUMBER_1))))  &trans    &trans  &kp RS(RA(RC(RG(N8))))  &kp RS(RA(RC(RG(N9))))        &kp RS(RA(RC(RG(N0))))  &trans
-&trans  &trans  &kp RS(RA(RC(RG(F17))))       &kp RS(RA(RC(RG(F18))))       &kp RS(RA(RC(RG(F19))))       &trans    &trans  &kp RS(RA(RC(RG(N5))))  &kp RS(RA(RC(RG(NUMBER_6))))  &kp RS(RA(RC(RG(N7))))  &trans  &trans
-                                              &trans                        &trans                        &trans    &trans  &trans                  &trans
+        &trans  &kp RS(RA(RC(RG(NUMBER_2))))  &kp RS(RA(RC(RG(NUMBER_3))))   &kp RS(RA(RC(RG(NUMBER_4))))  &trans    &trans  &trans                  &trans                        &trans                  &trans
+        &trans  &kp RA(RS(RC(RG(F20))))       &kp RS(RA(RC(RG(SEMICOLON))))  &kp RS(RA(RC(RG(NUMBER_1))))  &trans    &trans  &kp RS(RA(RC(RG(N8))))  &kp RS(RA(RC(RG(N9))))        &kp RS(RA(RC(RG(N0))))  &trans
+&trans  &trans  &kp RS(RA(RC(RG(F17))))       &kp RS(RA(RC(RG(F18))))        &kp RS(RA(RC(RG(F19))))       &trans    &trans  &kp RS(RA(RC(RG(N5))))  &kp RS(RA(RC(RG(NUMBER_6))))  &kp RS(RA(RC(RG(N7))))  &trans  &trans
+                                              &trans                         &trans                        &trans    &trans  &trans                  &trans
             >;
         };
     };
