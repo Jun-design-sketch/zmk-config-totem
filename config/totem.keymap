@@ -231,19 +231,19 @@
 
         app_shortcut {
             bindings = <
-        &trans   &trans   &trans   &trans   &trans     &trans  &trans  &trans  &trans  &trans
-        &kp F21  &trans   &trans   &kp F19  &kp F22    &trans  &trans  &trans  &trans  &trans
-&trans  &trans   &kp F20  &kp F17  &kp F18  &trans     &trans  &trans  &trans  &trans  &trans  &trans
-                          &trans   &trans   &trans     &trans  &trans  &trans
+        &trans                 &trans                 &trans                 &trans                 &trans                   &trans  &trans  &kp RS(RA(RC(RG(I))))  &trans  &trans
+        &kp RS(RA(RC(RG(A))))  &trans                 &trans                 &kp RS(RA(RC(RG(F))))  &kp RS(RA(RC(RG(G))))    &trans  &trans  &trans                 &trans  &trans
+&trans  &trans                 &kp RS(RA(RC(RG(X))))  &kp RS(RA(RC(RG(C))))  &kp RS(RA(RC(RG(V))))  &trans                   &trans  &trans  &trans                 &trans  &trans  &trans
+                                                      &trans                 &trans                 &trans                   &trans  &trans  &trans
             >;
         };
 
         raycast_layer {
             bindings = <
-        &trans  &trans  &trans   &kp F23  &trans    &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans   &trans   &trans    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &kp F24  &trans   &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans   &trans   &trans    &trans  &trans  &trans
+        &trans  &trans  &trans                   &kp RS(RA(RC(RG(F18))))  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans                   &trans                   &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &kp RS(RA(RC(RG(F17))))  &trans                   &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans                   &trans                   &trans    &trans  &trans  &trans
             >;
         };
     };
