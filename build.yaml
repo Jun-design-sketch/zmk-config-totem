@@ -8,7 +8,7 @@ include:
   # Dongle-master setup: flash totem_dongle to the dongle, totem_left_peripheral
   # to the left half, and totem_right to the right half.
   - board: seeeduino_xiao_ble
-    shield: totem_dongle prospector_adapter
+    shield: totem_dongle dongle_screen
   - board: seeeduino_xiao_ble
     shield: totem_left_peripheral
   - board: seeeduino_xiao_ble
