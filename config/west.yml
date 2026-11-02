@@ -11,6 +11,6 @@ manifest:
       import: app/west.yml
     - name: zmk-dongle-screen
       remote: jun-design-sketch
-      revision: 8deb84b98254275910491223f4dd0d76a398bef2 # Retro Green colors
+      revision: 680e6892a98c5702cd1514f1cabbc17675cbd664 # Bright layer and battery palette
   self:
     path: config
