@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: janpfischer
-      url-base: https://github.com/janpfischer
+    - name: jun-design-sketch
+      url-base: https://github.com/Jun-design-sketch
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: v0.3.0
       import: app/west.yml
     - name: zmk-dongle-screen
-      remote: janpfischer
-      revision: main
+      remote: jun-design-sketch
+      revision: 8deb84b98254275910491223f4dd0d76a398bef2 # Retro Green colors
   self:
     path: config
